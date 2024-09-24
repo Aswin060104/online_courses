@@ -1,0 +1,87 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+.outside-container{
+    background-image: url("images/signin_bg.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px ;
+}
+.container{
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(231, 231, 231);
+    padding: 30px 40px;
+    opacity: 0.8;
+    border-radius: 20px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.left-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+}
+.right-container{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    row-gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:  rgb(221, 216, 216);
+    opacity: 0.9;
+    box-shadow: 4px 4px 10px 1px rgb(37, 34, 34);
+    transition: 0.3s ease all;
+}
+.right-container input{
+    border: none;
+    background-color:  rgb(233, 230, 230);
+    border-radius: 5px;
+    padding: 5px 20px;
+    transition: 0.3s ease all;
+}
+.right-container input:focus{
+    outline: none;
+    border-color: rgb(10, 10, 10);
+}
+.right-container input:hover{
+    background-color: rgb(252, 252, 252);
+    transition: 0.3s ease all;
+}
+.radio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.right-container button{
+    border: none;
+    background-color: rgb(28, 31, 27);
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: white;
+    width: 100%;
+}
+.right-container button:hover{
+    background-color: rgb(2, 2, 2);;
+}
+h1{
+    margin: 0px;
+}
